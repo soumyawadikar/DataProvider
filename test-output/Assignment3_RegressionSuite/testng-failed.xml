@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assignment3_RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="tests1(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.Assignment3">
+        <methods>
+          <include name="enterData"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- tests.Assignment3 -->
+    </classes>
+  </test> <!-- tests1(failed) -->
+</suite> <!-- Failed suite [Assignment3_RegressionSuite] -->
